@@ -1,0 +1,266 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/</id>
+  <title>CtfChan</title>
+  <subtitle>Robots are great!</subtitle>
+  <updated>2022-06-18T11:56:05+08:00</updated>
+  <author>
+    <name>CtfChan</name>
+    <uri>http://0.0.0.0:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 CtfChan </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Cpp Blog: Templates Part 2</title>
+    <link href="http://0.0.0.0:4000/posts/templates-p2/" rel="alternate" type="text/html" title="Cpp Blog: Templates Part 2" />
+    <published>2020-11-05T00:00:00+08:00</published>
+  
+    <updated>2020-11-05T00:00:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/templates-p2/</id>
+    <content src="http://0.0.0.0:4000/posts/templates-p2/" />
+    <author>
+      <name>ctfchan</name>
+    </author>
+
+  
+    
+    <category term="Cpp Blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Back to Basics: Templates Part 2
+
+
+
+These are my notes from the second part of Andreas Fertig ‘s talk from CppCon 2020 titled “Back to Basics: Templates”.
+
+Variadic Templates
+
+Variadic templates allow you to pass a variable number of arguments to a template. It is denoted using three dots ....
+
+In the example below, min continuously expands the items in the initializer list while finding the mi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Cpp Blog: Templates</title>
+    <link href="http://0.0.0.0:4000/posts/templates/" rel="alternate" type="text/html" title="Cpp Blog: Templates" />
+    <published>2020-11-04T00:00:00+08:00</published>
+  
+    <updated>2020-11-04T00:00:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/templates/</id>
+    <content src="http://0.0.0.0:4000/posts/templates/" />
+    <author>
+      <name>CtfChan</name>
+    </author>
+
+  
+    
+    <category term="Cpp Blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Back to Basics: Templates Part 1
+
+
+
+These are my notes from Andreas Fertig ‘s talk from CppCon 2020 titled “Back to Basics: Templates”.
+
+Introduction
+
+Generic programming involves writing algorithms in terms of types that are to be specified later. Templates are commonly used for generic programming tasks in C++.
+
+In C++ there are 3 types of templates
+
+
+  function templates
+  class templates
+  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Cpp Blog: Conccurency</title>
+    <link href="http://0.0.0.0:4000/posts/concurrency/" rel="alternate" type="text/html" title="Cpp Blog: Conccurency" />
+    <published>2020-11-01T00:00:00+08:00</published>
+  
+    <updated>2020-11-01T00:00:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/concurrency/</id>
+    <content src="http://0.0.0.0:4000/posts/concurrency/" />
+    <author>
+      <name>CtfChan</name>
+    </author>
+
+  
+    
+    <category term="Cpp Blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Back to Basics: Concurrency
+
+
+
+These are my notes from Arthur O’Dwyer’s talk from CppCon 2020 titled “Back to Basics: Concurrency”.
+
+Thread-safe static initialization
+
+Since C++11, the initialization of static variables is guaranteed to be thread-safe. After the first thread’s arrival the other threads will block and wait for the first to succeed or fail with an exception. This technique can be...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Cpp Blog: How are executables made?</title>
+    <link href="http://0.0.0.0:4000/posts/how-are-programs-compiled/" rel="alternate" type="text/html" title="Cpp Blog: How are executables made?" />
+    <published>2020-10-31T00:00:00+08:00</published>
+  
+    <updated>2020-10-31T00:00:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/how-are-programs-compiled/</id>
+    <content src="http://0.0.0.0:4000/posts/how-are-programs-compiled/" />
+    <author>
+      <name>CtfChan</name>
+    </author>
+
+  
+    
+    <category term="Cpp Blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      How are executables made?
+
+The process of creating an executable can be broken down into a compiling and a linker stage.
+
+The stages of compiling are:
+
+
+  pre-processing
+  linguistic analysis
+  assembling
+  optimization
+  code emission
+
+
+The stages of linking are:
+
+
+  relocation
+  reference resolving
+
+
+Compiling
+
+This input to the compiler is a translation unit; this is a text file containing s...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Cpp Blog: Virtual Destructors</title>
+    <link href="http://0.0.0.0:4000/posts/virtual-destructors/" rel="alternate" type="text/html" title="Cpp Blog: Virtual Destructors" />
+    <published>2020-10-29T00:00:00+08:00</published>
+  
+    <updated>2020-10-29T00:00:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/virtual-destructors/</id>
+    <content src="http://0.0.0.0:4000/posts/virtual-destructors/" />
+    <author>
+      <name>CtfChan</name>
+    </author>
+
+  
+    
+    <category term="Cpp Blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Virtual Destructors
+
+As a general rule of thumb you should always make the destructor of your base class virtual. Why is that?
+
+Consider the following piece of code which defines a Base and a Derived class.
+
+class Base {
+public:
+    Base() {
+        cout &amp;lt;&amp;lt; "Base Constructor" &amp;lt;&amp;lt; endl;
+    }
+
+    ~Base() {
+        cout &amp;lt;&amp;lt; "Base Destructor" &amp;lt;&amp;lt; endl;
+    }
+};
+
+class Derived...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
